@@ -1,7 +1,7 @@
-import React from 'react';
-import styled from 'styled-components/macro';
+import React from "react";
+import styled from "styled-components/macro";
 
-import { WEIGHTS } from '../../constants';
+import { WEIGHTS } from "../../constants";
 
 const Logo = (props) => {
   return (
@@ -12,6 +12,8 @@ const Logo = (props) => {
 };
 
 const Link = styled.a`
+  position: absolute;
+  left: 32px;
   text-decoration: none;
   color: inherit;
 `;
