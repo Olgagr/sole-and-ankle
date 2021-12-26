@@ -48,7 +48,9 @@ const Wrapper = styled.div`
 `;
 
 const LeftColumn = styled.div`
+  flex: 1 0 280px;
   margin-right: auto;
+  padding-right: 32px;
 `;
 
 const MainColumn = styled.div``;
